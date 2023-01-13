@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-08T18:43:49 IST" name="Suite" finished-at="2023-01-08T18:45:05 IST" duration-ms="75635">
+  <suite started-at="2023-01-11T15:47:16 IST" name="Suite" finished-at="2023-01-11T15:48:10 IST" duration-ms="53658">
     <groups>
     </groups>
-    <test started-at="2023-01-08T18:43:49 IST" name="Test" finished-at="2023-01-08T18:45:05 IST" duration-ms="75635">
+    <test started-at="2023-01-11T15:47:16 IST" name="Test" finished-at="2023-01-11T15:48:10 IST" duration-ms="53658">
       <class name="opencart.Application.Test.Application_Test">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:43:48 IST" name="setUpReport" finished-at="2023-01-08T18:43:49 IST" duration-ms="946" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:15 IST" name="setUpReport" finished-at="2023-01-11T15:47:16 IST" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:43:49 IST" name="launchBrowser" finished-at="2023-01-08T18:44:03 IST" duration-ms="14126" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:16 IST" name="launchBrowser" finished-at="2023-01-11T15:47:29 IST" duration-ms="13066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Verify_Currency_DropDown()[pri:1, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:03 IST" name="Verify_Currency_DropDown" finished-at="2023-01-08T18:44:07 IST" duration-ms="3439" status="PASS">
+        <test-method signature="Verify_Currency_DropDown()[pri:1, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:29 IST" name="Verify_Currency_DropDown" finished-at="2023-01-11T15:47:34 IST" duration-ms="4760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Currency_DropDown -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:07 IST" name="tearDownBrowser" finished-at="2023-01-08T18:44:08 IST" duration-ms="1129" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:34 IST" name="tearDownBrowser" finished-at="2023-01-11T15:47:35 IST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:08 IST" name="launchBrowser" finished-at="2023-01-08T18:44:18 IST" duration-ms="9882" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:35 IST" name="launchBrowser" finished-at="2023-01-11T15:47:41 IST" duration-ms="6714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Verify_Search_Box()[pri:2, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:18 IST" name="Verify_Search_Box" finished-at="2023-01-08T18:44:22 IST" duration-ms="3676" status="PASS">
+        <test-method signature="Verify_Search_Box()[pri:2, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:41 IST" name="Verify_Search_Box" finished-at="2023-01-11T15:47:44 IST" duration-ms="2030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Search_Box -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:22 IST" name="tearDownBrowser" finished-at="2023-01-08T18:44:24 IST" duration-ms="2088" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:44 IST" name="tearDownBrowser" finished-at="2023-01-11T15:47:44 IST" duration-ms="800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:24 IST" name="launchBrowser" finished-at="2023-01-08T18:44:35 IST" duration-ms="11524" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:44 IST" name="launchBrowser" finished-at="2023-01-11T15:47:55 IST" duration-ms="10309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Verify_Search_Button()[pri:3, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:35 IST" name="Verify_Search_Button" finished-at="2023-01-08T18:44:39 IST" duration-ms="3783" status="PASS">
+        <test-method signature="Verify_Search_Button()[pri:3, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:55 IST" name="Verify_Search_Button" finished-at="2023-01-11T15:47:58 IST" duration-ms="3483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Search_Button -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:39 IST" name="tearDownBrowser" finished-at="2023-01-08T18:44:44 IST" duration-ms="5189" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:58 IST" name="tearDownBrowser" finished-at="2023-01-11T15:47:59 IST" duration-ms="892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:44 IST" name="launchBrowser" finished-at="2023-01-08T18:44:57 IST" duration-ms="12720" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:47:59 IST" name="launchBrowser" finished-at="2023-01-11T15:48:07 IST" duration-ms="8284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="Verify_HomePage_Title()[pri:4, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:44:57 IST" name="Verify_HomePage_Title" finished-at="2023-01-08T18:45:04 IST" duration-ms="6947" status="PASS">
+        <test-method signature="Verify_HomePage_Title()[pri:4, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:48:07 IST" name="Verify_HomePage_Title" finished-at="2023-01-11T15:48:09 IST" duration-ms="1926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_HomePage_Title -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:45:04 IST" name="tearDownBrowser" finished-at="2023-01-08T18:45:05 IST" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:48:09 IST" name="tearDownBrowser" finished-at="2023-01-11T15:48:10 IST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-08T18:45:05 IST" name="tearDownReport" finished-at="2023-01-08T18:45:06 IST" duration-ms="1594" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:opencart.Application.Test.Application_Test@611889f4]" started-at="2023-01-11T15:48:10 IST" name="tearDownReport" finished-at="2023-01-11T15:48:11 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->

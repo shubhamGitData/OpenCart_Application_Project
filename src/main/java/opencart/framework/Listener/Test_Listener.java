@@ -6,6 +6,7 @@ import org.testng.ITestResult;
 import com.relevantcodes.extentreports.LogStatus;
 
 import opencart.framework.Extent_Reports.Extent_ReportClass;
+import opencart.framework.WebCommons.WebCommons;
 
 public class Test_Listener extends Extent_ReportClass implements ITestListener {
 
@@ -31,6 +32,7 @@ public class Test_Listener extends Extent_ReportClass implements ITestListener {
 	{
 		logger.log(LogStatus.FAIL, "Test case is Failed : "+result.getMethod().getMethodName());
 		logger.log(LogStatus.FAIL, "Test case is Failed with Error : "+result.getThrowable());
+		logger.addScreenCapture(new WebCommons().takescreenshot(result.getMethod().getMethodName()));
 		extent.endTest(logger);
 	}
 
