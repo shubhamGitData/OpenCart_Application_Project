@@ -18,7 +18,7 @@ public class Extent_ReportClass {
 	{
 		// Create Empty Report
 		extent= new ExtentReports(".\\Reports\\OpenCart_AutomationReport.html");
-		extent.addSystemInfo("Project Name : ", "OpenCart App").addSystemInfo("Test Engineer : ", "Shubham Patil");
+		extent.addSystemInfo("Project Name : ", "OpenCart App").addSystemInfo("Test Engineer : ", "Shubham Tathod");
 		
 	}
 	

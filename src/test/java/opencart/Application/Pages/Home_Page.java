@@ -35,16 +35,59 @@ public class Home_Page extends WebCommons{
 	private WebElement apple_TV  ;
 	
 	
+	
+	@FindBy (xpath="//a[text()='Desktops']")
+	private WebElement desktop_Menu  ;
+	
+	@FindBy (xpath="//a[text()='Laptops & Notebooks']")
+	private WebElement laptop_Notebooks ;
+	
+	@FindBy (xpath="//a[text()='Components']")
+	private WebElement components  ;
+	
+	@FindBy (xpath="//a[text()='Tablets']")
+	private WebElement tablets  ;
+	
+	@FindBy (xpath="//a[text()='Software']")
+	private WebElement software ;
+	
+	
+	@FindBy (xpath="//a[text()='Phones & PDAs']")
+	private WebElement  phones ;
+	
+	@FindBy (xpath="//a[text()='Cameras']")
+	private WebElement  cameras;
+	
+	@FindBy (xpath="//a[text()='MP3 Players']")
+	private WebElement  mp3Players;
+
+	
 	/*
+	 * 
+	 	
+	@FindBy (xpath="")
+	private WebElement  ;
+	
+	  @FindBy (xpath="")
+	private WebElement  ;
+	
+	@FindBy (xpath="")
+	private WebElement  ;
 	@FindBy (xpath="")
 	private WebElement  ;
 	
 	@FindBy (xpath="")
 	private WebElement  ;
-	
 	@FindBy (xpath="")
 	private WebElement  ;
 	
+	@FindBy (xpath="")
+	private WebElement  ;
+	@FindBy (xpath="")
+	private WebElement  ;
+	
+	@FindBy (xpath="")
+	private WebElement  ;
 	*/
 	
 	//=================================================
@@ -92,7 +135,91 @@ public class Home_Page extends WebCommons{
 	
 	
 	
+	public void verifyDesktop_Menu() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(desktop_Menu));
+		Assert.assertTrue(checkEnability(desktop_Menu));
+		elementScreenshot(desktop_Menu, "Desktop_Menu");
+		report("Desktop_Menu is Displayed & Enabled");
+		
+	}
 	
+	
+	public void verifyLaptop_NotebooksMenu() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(laptop_Notebooks));
+		Assert.assertTrue(checkEnability(laptop_Notebooks));
+		elementScreenshot(laptop_Notebooks, "laptop_Notebooks");
+		report("laptop_Notebooks Menu is Displayed & Enabled");
+		
+	}
+	
+	
+	
+	public void verifyComponentsMenu() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(components));
+		Assert.assertTrue(checkEnability(components));
+		elementScreenshot(components, "Components Menu");
+		report("Components Menu is Displayed & Enabled");
+		
+	}
+	
+	
+	
+	public void verifyTabletsMenu () {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(tablets));
+		Assert.assertTrue(checkEnability(tablets));
+		elementScreenshot(tablets, "Tablets Menu ");
+		report("Tablets Menu  is Displayed & Enabled");
+		
+	}
+	
+	
+	
+	
+	public void verifySoftwareMenu() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(software));
+		Assert.assertTrue(checkEnability(software));
+		elementScreenshot(software, "Software Menu ");
+		report("Software Menu  is Displayed & Enabled");
+		
+	}
+	
+	
+	
+	public void verifyPhonesMenu() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(phones));
+		Assert.assertTrue(checkEnability(phones));
+		elementScreenshot(phones, "Phones Menu");
+		report("Phones Menu is Displayed & Enabled");
+		
+	}
+	
+	
+	
+	public void verifyCamerasMenu() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(cameras));
+		Assert.assertTrue(checkEnability(cameras));
+		elementScreenshot(cameras, " Cameras Menu");
+		report("Cameras Menu is Displayed & Enabled");
+		
+	}
+	
+	
+	
+	public void verifymp3Players() {
+		implicitWait(3);
+		Assert.assertTrue(checkAvailability(mp3Players));
+		Assert.assertTrue(checkEnability(mp3Players));
+		elementScreenshot(mp3Players, "Mp3 Players Menu");
+		report("Mp3 Players menu is Displayed & Enabled");
+		
+	}
 	
 	
 	
