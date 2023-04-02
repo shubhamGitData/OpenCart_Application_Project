@@ -55,7 +55,7 @@ public class WebdriverClass extends Extent_ReportClass{
 		
 		// This method will be used to close Browser window
 
-		@AfterMethod
+		@AfterMethod (alwaysRun=true)
 		public static void tearDownBrowser() {
 			driver.quit();
 		}

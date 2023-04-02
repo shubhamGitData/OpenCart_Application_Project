@@ -6,15 +6,22 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="Browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Registration_Page"/>
+      </run>
+    </groups>
     <classes>
       <class name="opencart.Application.Test.Application_Test">
         <methods>
           <include name="launchBrowser"/>
+          <include name="Verify_Agree_Checkbox"/>
           <include name="tearDownReport"/>
-          <include name="Verify_Search_Button"/>
-          <include name="Verify_Search_Box"/>
-          <include name="Verify_Currency_DropDown"/>
+          <include name="Verify_Radio_Button_No"/>
+          <include name="Verify_Registration_Header2"/>
           <include name="tearDownBrowser"/>
+          <include name="Verify_Continue_Button"/>
+          <include name="Verify_Privacy_Policy_Link"/>
           <include name="setUpReport"/>
         </methods>
       </class> <!-- opencart.Application.Test.Application_Test -->
