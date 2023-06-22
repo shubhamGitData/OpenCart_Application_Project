@@ -15,13 +15,9 @@
       <class name="opencart.Application.Test.Application_Test">
         <methods>
           <include name="launchBrowser"/>
-          <include name="Verify_Agree_Checkbox"/>
           <include name="tearDownReport"/>
-          <include name="Verify_Radio_Button_No"/>
           <include name="Verify_Registration_Header2"/>
           <include name="tearDownBrowser"/>
-          <include name="Verify_Continue_Button"/>
-          <include name="Verify_Privacy_Policy_Link"/>
           <include name="setUpReport"/>
         </methods>
       </class> <!-- opencart.Application.Test.Application_Test -->
